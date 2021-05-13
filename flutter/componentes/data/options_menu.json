@@ -1,0 +1,75 @@
+{
+    "nombreApp": "uperaApp",
+    "rutas": [
+        {
+            "ruta": "admin",
+            "icon": "admin_panel_settings",
+            "texto": "Administración"
+        },
+        {
+            "ruta": "registroPagos",
+            "icon": "grading",
+            "texto": "Registro de pagos"
+        },
+        {
+            "ruta": "pago",
+            "icon": "payment",
+            "texto": "Pago en línea"
+        },
+        {
+            "ruta": "ingresosEgresos",
+            "icon": "list",
+            "texto": "Lista de ingresos y egresos"
+        },
+        {
+            "ruta": "estadoCuenta",
+            "icon": "receipt",
+            "texto": "Estado de cuenta"
+        },
+        {
+            "ruta": "ticketsMantenimiento",
+            "icon": "build",
+            "texto": "Ticket de mantenimiento"
+        },
+        {
+            "ruta": "historialTickets",
+            "icon": "system_update_alt",
+            "texto": "Ticket de mantenimiento"
+        },
+        {
+            "ruta": "chat",
+            "icon": "question_answer",
+            "texto": "Chat"
+        },
+        {
+            "ruta": "encuestas",
+            "icon": "thumb_up_alt",
+            "texto": "Encuestas"
+        },
+        {
+            "ruta": "reservas",
+            "icon": "event",
+            "texto": "Reserva"
+        },
+        {
+            "ruta": "accesos",
+            "icon": "dvr",
+            "texto": "Accesos QR"
+        },
+        {
+            "ruta": "perfil",
+            "icon": "account_circle",
+            "texto": "Mi perfil"
+        },
+        {
+            "ruta": "notificaciones",
+            "icon": "circle_notifications",
+            "texto": "Notificaciones"
+        },
+        {
+            "ruta": "sos",
+            "icon": "hearing",
+            "texto": "SOS"
+        }
+    ]
+}
