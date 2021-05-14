@@ -17,6 +17,22 @@ class CardView extends StatelessWidget {
             height: 30.0,
           ),
           _cardTipo2(),
+          SizedBox(
+            height: 30.0,
+          ),
+          _cardTipo1(),
+          SizedBox(
+            height: 30.0,
+          ),
+          _cardTipo2(),
+          SizedBox(
+            height: 30.0,
+          ),
+          _cardTipo1(),
+          SizedBox(
+            height: 30.0,
+          ),
+          _cardTipo2(),
         ],
       ),
     );
@@ -24,6 +40,8 @@ class CardView extends StatelessWidget {
 
   Widget _cardTipo1() {
     return Card(
+      elevation: 10.0,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       child: Column(
         children: <Widget>[
           ListTile(
@@ -50,15 +68,14 @@ class CardView extends StatelessWidget {
   }
 
   Widget _cardTipo2() {
-    return Card(
-      elevation: 10.0,
+    final card = Card(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(0.0)),
       child: Column(
         children: <Widget>[
           FadeInImage(
             image: NetworkImage(
                 'https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'),
-            placeholder: AssetImage('jar-loading.gif'),
+            placeholder: AssetImage('assets/jar-loading.gif'),
             fadeInDuration: Duration(seconds: 2),
             fadeOutDuration: Duration(seconds: 1),
             fit: BoxFit.cover,
@@ -73,6 +90,13 @@ class CardView extends StatelessWidget {
             child: Text('Imagen'),
           ),
         ],
+      ),
+    );
+
+    return Container(
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(30.0),
+        child: card,
       ),
     );
   }

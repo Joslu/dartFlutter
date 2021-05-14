@@ -18,11 +18,13 @@ final _icons = <String, IconData>{
   'account_circle': Icons.account_circle,
   'circle_notifications': Icons.circle_notifications,
   'hearing': Icons.hearing,
+  'donut_large': Icons.donut_large,
+  'input': Icons.input,
 };
 
 Icon getIcon(String nombreIcono) {
   return Icon(
     _icons[nombreIcono],
-    color: Colors.blue,
+    color: Colors.red[400],
   );
 }

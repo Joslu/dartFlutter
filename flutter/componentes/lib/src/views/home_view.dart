@@ -2,7 +2,6 @@ import 'package:componentes/utils/icon_string_util.dart';
 import 'package:flutter/material.dart';
 
 import 'package:componentes/src/providers/menu_provide.dart';
-import 'package:componentes/src/views/alert_view.dart';
 
 class HomeView extends StatelessWidget {
   @override
