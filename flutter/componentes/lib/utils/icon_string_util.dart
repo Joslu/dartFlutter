@@ -20,6 +20,7 @@ final _icons = <String, IconData>{
   'hearing': Icons.hearing,
   'donut_large': Icons.donut_large,
   'input': Icons.input,
+  'sliders': Icons.slideshow,
 };
 
 Icon getIcon(String nombreIcono) {

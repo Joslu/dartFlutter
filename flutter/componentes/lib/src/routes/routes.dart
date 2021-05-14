@@ -1,6 +1,7 @@
 import 'package:componentes/src/views/animated_container.dart';
 import 'package:componentes/src/views/card_view.dart';
 import 'package:componentes/src/views/inputs_view.dart';
+import 'package:componentes/src/views/slider_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:componentes/src/views/alert_view.dart';
@@ -15,5 +16,6 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     'card': (BuildContext context) => CardView(),
     'animatedContainer': (BuildContext context) => AnimatedContainerView(),
     'inputs': (BuildContext context) => InputsView(),
+    'sliders': (BuildContext context) => SliderView(),
   };
 }
